@@ -6,7 +6,16 @@ router.get('/order', (req, res, next) => {
   res.send({
     success: false,
     message: 'yoo ca se passe',
-    test: ok
+    test: 'ok'
   });
+  console.log('yoo test')
+  console.log('yoo test')
+  console.log('yoo test')
+  console.log('yoo test')
+  console.log('yoo test')
+  console.log('yoo test')
+  console.log('yoo test')
+  console.log('yoo test')
+  console.log('yoo test')
 });
   module.exports = router;
